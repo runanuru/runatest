@@ -1,0 +1,61 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    list-style: none;
+    
+    
+}
+
+
+.hero{
+height: 100vh;
+width: 100%;
+background-color: rgb(255, 255, 255);
+font-size: small;
+padding-top: 30px;
+
+}
+
+nav {
+padding: 45px 5% 0 5%;
+}
+
+
+:link {
+color: black;
+}
+:visited {
+    color: inherit;
+ }
+
+.content{
+    padding-top: 100px;
+}
+
+.content .body{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 0px;
+    
+   
+</style>
+}
+
+.content .body img {
+    width: 580px;
+    height: 350px;
+}
+
+.thin-text {
+    font-weight: lighter; /* または、font-weight: 300; などの値を指定 */
+
+}
+
+
+
+
+
+
