@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>新しいページ</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap">
+
+
+   
+    
+  
+    <style>body {
+        margin: 0;
+        padding: 0;
+        background-color: black; /* 任意の背景色に変更 */
+        color: white; /* テキストの色を黒に変更 */
+    }
+        
+
+
+        /* 日本語の文字に対するスタイル */
+        [lang="ja"] {
+            font-family: 'Noto Serif JP', serif;
+            font-weight: 100; /* もしくは 'normal' を使用 */
+        }
+
+        /* 英語の文字に対するスタイル */
+        [lang="en"] {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 300; /* もしくは 'lighter' を使用 */
+
+
+        }
+        
+    
+    
+    header {
+       
+        color: white;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    main {
+        overflow: hidden; /* スクロールバーを隠す */
+    }
+    .main-photo {
+        text-align: center; /* 親要素に対してセンター揃えを適用 */
+    }
+    .main-photo img {
+        width: 80%;
+        height: auto;
+        display: inline-block;
+        margin: 0 auto; /* 中央に寄せる */
+        
+    }
+
+    .main-photo-text {
+    width: 80%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+
+.main-photo-text {
+    max-width: 100%;
+}
+
+.title-text {
+    
+    writing-mode: horizontal-tb; /* 水平書きに指定 */
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between; /* 左右に配置 */
+    padding-bottom: 30px; /* 下側の余白を指定 */
+    
+    
+}
+
+
+.title-text h2{
+    writing-mode: horizontal-tb; /* 水平書きに指定 */
+            max-width: 70%;
+            margin: 0 ;
+            text-align: left;
+            display: flex;
+            align-items: center; /* タイトルと素材を縦方向に中央揃え */
+            display: inline-block;
+            font-weight: 400; /* 太いフォントに設定 */
+        }
+
+        .material {
+            font-size: small;
+            margin-left: 0px; /* タイトルと素材の間に余白を追加 */
+            margin-right: 700px; /* 右側に余白を追加 */
+            display: flex;
+            
+            align-items: center; /* タイトルと素材を縦方向に中央揃え */
+        
+        }
+
+        
+    .scroll-content {
+        padding: 20px;
+    }
+
+    .scroll-content p {
+    max-width: 80%;  /* 文章の最大幅を指定（写真の幅に合わせて調整） */
+    margin: 0 auto;  /* 左右の余白を自動で調整して中央に寄せる */
+    text-align: left;  /* テキストの配置を左寄せに指定 */
+    margin-bottom: 10px; /* 下側の余白を指定 */
+   
+}
+    
+    .photo-grid {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
+    .photo-grid img {
+            max-width: 40.8%; /* 親要素の幅に合わせる */
+            height: auto;
+            border: 0px solid #333;
+            margin: 5px; /* 写真の間に余白を追加 */
+        }
+
+    
+            .title-text {
+                max-width: 80%;
+    margin: 0 auto;
+    text-align: left;
+                
+            }
+        
+    
+    
+    </style>
+</head>
+
+
+<body>
+    <header>
+        <!-- ヘッダーコンテンツ -->
+        <h1> </h1>
+    </header>
+
+    <main>
+        <section class="main-photo">
+            <!-- メインの大きな写真 -->
+            <img src="./img/ねこ作品写真.png" alt="Main Photo">
+            <div class="main-photo-text">
+                <div class="title-text">
+                </div>
+        </section>
+
+        <section class="scroll-content">
+            <!-- スクロールすると表示されるコンテンツ -->
+            <div class="photo-grid">
+                <img src="./img/ねこ2shot.png" alt="Photo 1">
+                <img src="./img/鑑賞.jpg" alt="Photo 2">
+            </div>
+
+            <div class="title-text">
+                <h2>I like a cat. It is…</h2>
+                <span class="material">(Material)</span>
+            </div>
+                <p>夜中にiPhoneで木々を撮影したとき、自動で焚かれたフラッシュの光が反射して、木々が自ら光を放っているように見えたという経験がある。この経験をきっかけに、再撮影した木々の写真を、木々のように昼と夜で違う表情を見せる猫の姿と重ねる。
+                    夜中に木々や猫と出会った経験は、「見られている」ということを私に強く意識させたと同時に私とかれらが全く別の生き物だということを示唆させられたような出来事だった。
+                    わたしたちは作品を鑑賞するとき一体何を「見た」つもりになっているのか、そして、これらの経験から写真作品を鑑賞する場面で、写真を見る前に写真に見られる。ということについて関心を持ち、立体作品を公園で展示した。
+                    
+                     ボックスの中には無線で繋がれたストロボを設置し、人や猫が通り過ぎる瞬間に光らせることで、初めて作品が見えるようになっている。 
+                    </p>
+           
+        </section>
+    </main>
+
+    <footer>
+        <!-- フッターコンテンツ -->
+    </footer>
+
+
+</body>
+</html>
